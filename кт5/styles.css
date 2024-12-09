@@ -1,0 +1,93 @@
+.body {
+  background-size: contain;
+}
+
+.block1 {
+    background-color: red;
+    width: 110px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+.block2 {
+    background-color: blue;
+    width: 200px;
+    height: 30px;
+}
+.block3 {
+  background-color: grey;
+  width: 30px;
+  height: 30px;
+  margin-left: 140px;
+}
+
+.block4 {
+  background-color: grey;
+  width: 30px;
+  height: 30px;
+  margin-top: -30px;
+}
+.block1 {
+    animation: block1 5s 1;
+  }
+  
+  @keyframes block1 {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(1630px);
+    }
+  }
+
+  .block2 {
+    animation: block2 5s 1;
+  }
+  
+  @keyframes block2 {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(1630px);
+    }
+
+  }
+  .block3 {
+    animation: block3 5s 1;
+  }
+  
+  @keyframes block3 {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(1630px);
+    }
+  }
+  .block4 {
+    animation: block4 5s 1;
+  }
+  
+  @keyframes block4 {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(1630px);
+    }
+  }
+
+  .block1 {
+    transform: translateX(10000px);
+  }
+  .block2 {
+    transform: translateX(10000px);
+  }
+  .block3 {
+    transform: translateX(10000px);
+  }
+  .block4 {
+    transform: translateX(10000px);
+  }
+  
